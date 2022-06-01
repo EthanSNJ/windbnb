@@ -14,7 +14,6 @@
   border-radius: 16px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
 }
 
 .optionsCity {
@@ -23,7 +22,6 @@
   font-weight: 400;
   font-size: 14px;
   color: #333333;
-  /* margin-left: 16px; */
 }
 
 .optionsSeparator {
@@ -44,5 +42,5 @@
 .searchIcon {
   height: 17.05px;
   width: 17.05px;
-  fill: #eb5757;
+  color: '#EB5757';
 }
