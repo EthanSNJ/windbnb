@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.topBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.optionsButton {
+  width: 297px;
+  height: 55px;
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.optionsCity {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+  /* margin-left: 16px; */
+}
+
+.optionsSeparator {
+  width: 55px;
+  height: 0px;
+  border: 1px solid #f2f2f2;
+  transform: rotate(90deg);
+}
+
+.optionsGuests {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+
+.searchIcon {
+  height: 17.05px;
+  width: 17.05px;
+  fill: #eb5757;
+}
