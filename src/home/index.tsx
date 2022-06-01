@@ -12,7 +12,13 @@ const Home = () => {
           <span className="optionsSeparator" />
           <div className="optionsGuests">Add guests</div>
           <span className="optionsSeparator" />
-          <img className="searchIcon" src={SearchIcon} alt="search" />
+          <div className="optionsSearchIcon">
+            <img
+              className="searchIcon"
+              src={SearchIcon}
+              alt="search"
+            />
+          </div>
         </div>
       </div>
     </div>
